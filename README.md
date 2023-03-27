@@ -1,14 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="https://raw.githubusercontent.com/vvoo21/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -27,9 +16,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Vet Clinic <a name="about-project"></a>
+# 📖 Vet Clinic Database <a name="about-project"></a>
 
-**Vet Clinic** is a project to create the initial data structure for a veterinary clinic using a relational database. It implements PostgreSQL and contains all the data about animals.
+**Vet Clinic Database** is a project to create the initial data structure for a veterinary clinic using a relational database. It implements PostgreSQL and contains all the data about animals.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -96,9 +85,8 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Database Schema Diagram
-
-![Schema Diagram](./images/schema.png)
+<!-- ## Database Schema Diagram
+![Schema Diagram soom](./img/schema.png) -->
 
 ## 👥 Author <a name="authors"></a>
 
