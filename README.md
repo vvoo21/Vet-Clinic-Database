@@ -1,14 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="https://raw.githubusercontent.com/vvoo21/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -96,9 +85,9 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Database Schema Diagram
+<!-- ## Database Schema Diagram
 
-![Schema Diagram](./img/schema.png)
+![Schema Diagram soom](./img/schema.png) -->
 
 ## 👥 Author <a name="authors"></a>
 
