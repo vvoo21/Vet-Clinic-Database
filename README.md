@@ -53,7 +53,7 @@ Clone this repository to your desired folder:
 
 ```
 git clone https://github.com/vvoo21/Vet-Clinic-Database.git
-cd vet-clinic
+cd Vet-Clinic-Database
 ```
 
 ### Create database
@@ -86,7 +86,6 @@ That's it! Congratulations, you have created your database and connected to it. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ## Database Schema Diagram
-
 ![Schema Diagram soom](./img/schema.png) -->
 
 ## 👥 Author <a name="authors"></a>
