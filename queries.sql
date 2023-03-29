@@ -135,6 +135,46 @@ FROM animals
 WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31'
 GROUP BY type_of_animal;
 
+-- Queries using JOIN
+SELECT name AS animal_name, full_name AS owner_full_name 
+FROM animals
+JOIN owners
+  ON animals.owner_id = owners.id
+  WHERE full_name = 'Melody Pond';
 
+SELECT animals.name AS pokemon_animals 
+FROM animals
+JOIN species
+  ON animals.species_id = species.id
+  WHERE species.name = 'Pokemon';
 
+SELECT full_name AS owner_full_name, name AS animal_name
+FROM owners
+LEFT JOIN animals
+  ON animals.owner_id = owners.id;
 
+SELECT species.name AS species_name, COUNT(species_id) AS total
+FROM species
+JOIN animals
+  ON animals.species_id = species.id
+  GROUP BY species.name;
+
+SELECT name AS Digimons, full_name AS owner_full_name 
+FROM animals
+JOIN owners
+  ON animals.owner_id = owners.id
+  WHERE full_name = 'Jennifer Orwell' AND name LIKE '%mon';
+
+SELECT name AS animal_name, full_name AS owner_full_name 
+FROM animals
+JOIN owners
+  ON animals.owner_id = owners.id
+  WHERE full_name = 'Dean Winchester' AND escape_attempts = 0;
+
+SELECT full_name AS owner_full_name, COUNT(owner_id) AS number_of_animals
+FROM animals
+JOIN owners
+  ON animals.owner_id = owners.id
+  GROUP BY full_name
+  ORDER BY number_of_animals DESC
+  LIMIT 1;
