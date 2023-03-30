@@ -180,7 +180,6 @@ JOIN owners
   LIMIT 1;
 
 -- More queries
-
 SELECT animals.name AS "last animal seen by William Tatcher"
 FROM animals
 JOIN visits
@@ -204,7 +203,7 @@ FROM vets
 LEFT JOIN specializations
 ON vets.id = specializations.vet_id
 LEFT JOIN species
-ON species.id = specializations.species_id;
+ON species.id = specializations.species_id
 WHERE vets.name = 'Stephanie Mendez';
 
 SELECT animals.name AS animals, vets.name AS vet_name
@@ -262,4 +261,3 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY species.id
 ORDER BY COUNT(species.id) DESC
 LIMIT 1;
-
