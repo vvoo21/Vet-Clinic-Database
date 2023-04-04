@@ -8,6 +8,7 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Create database](#create-database)
+- [Database Schema Diagram] (#Database-Schema-Diagram)
 - [👥 Author](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -85,8 +86,10 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## Database Schema Diagram
-![Schema Diagram soom](./img/schema.png) -->
+## Database Schema Diagram
+![Schema Diagram soom](./img/schema.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
 
