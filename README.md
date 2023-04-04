@@ -99,6 +99,11 @@ That's it! Congratulations, you have created your database and connected to it. 
 - Twitter: [@vaneoliverosp](https://twitter.com/vaneoliverosp)
 - LinkedIn: [vaneoliverosp](https://www.linkedin.com/in/vaneoliverosp/)
 
+👤 **Timothy Njoroge**
+
+- GitHub: [@simplegoose](https://github.com/simplegoose)
+- LinkedIn: [Timothy Njoroge](https://www.linkedin.com/in/timothy-njoroge-mwangi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
